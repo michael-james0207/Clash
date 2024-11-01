@@ -1,7 +1,7 @@
-I# NAME: Emby
+I# NAME: 🎬 影视专线
 # REPO: https://github.com/justdoiting/emby-rules
 # UPDATED: 2024-11-01
-# 内容：Emby 🎬 影视专线
+# 内容：Emby线路
 # 比较全面的各家 Emby 地址，同时也新增了自己需要的几条线路。
 payload:
   - DOMAIN-KEYWORD,emby
@@ -127,7 +127,6 @@ payload:
   - DOMAIN-SUFFIX,emby.xeton.dev
   - DOMAIN-SUFFIX,emby.cjpc.cc
   - DOMAIN-SUFFIX,cristiamo.xyz
-  - IP-CIDR,161.97.148.156/24,no-resolve
   - DOMAIN-SUFFIX,emby.cristiamo.top
   - DOMAIN-SUFFIX,581658.best
   - DOMAIN-SUFFIX,misakaf.org
