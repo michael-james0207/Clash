@@ -1,0 +1,21 @@
+MAC版本的Emby破解
+首先安装Emby客户端
+打开 终端 或 iTerm ，输入下面命令并回车
+
+/bin/bash -c "$(curl -fsSL https://git.io/EmbyPremiereUnlock.sh)"
+
+
+输入 Mac 开机密码后提示解锁成功并自动重启 Emby 客户端
+
+由于破解脚本是放到 github 的，有的人网络不行，github 被污染，所以脚本可能没获取到，这会导致破解失败！
+
+这时请使用下面的备用脚本
+
+/bin/bash -c "$(curl -fsSL https://gitlab.com/iptv-org/embypublic/-/raw/master/Script/EmbyPremiere.sh)"
+播放
+
+
+
+随便找一部影片来播放，美滋滋。
+
+如果 Emby 客户端更新了，可能需要使用上面命令重新破解一下。
