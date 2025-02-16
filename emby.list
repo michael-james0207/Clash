@@ -5,6 +5,9 @@
 # 比较全面的各家 Emby 地址，同时也新增了自己需要的几条线路。
 payload:
 DOMAIN,emby.enjoyit.eu.org
+DOMAIN,7777777.buzz
+DOMAIN,193.122.114.13
+DOMAIN,581658.best
 DOMAIN,emby.lcloud.wiki
 DOMAIN,notnetflix.cos.cat
 DOMAIN-SUFFIX,123456.al
