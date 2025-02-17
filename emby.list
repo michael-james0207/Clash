@@ -6,7 +6,7 @@
 payload:
 DOMAIN,emby.enjoyit.eu.org
 DOMAIN,7777777.buzz
-DOMAIN,193.122.114.13
+IP-CIDR,,193.122.114.13
 DOMAIN,581658.best
 DOMAIN,emby.lcloud.wiki
 DOMAIN,notnetflix.cos.cat
