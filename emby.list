@@ -6,7 +6,7 @@
 payload:
 DOMAIN-SUFFIX,emby.enjoyit.eu.org
 DOMAIN-SUFFIX,7777777.buzz
-IP-CIDR,193.122.114.13
+IP-SUFFIX,193.122.114.13/24
 DOMAIN-SUFFIX,581658.best
 DOMAIN-SUFFIX,emby.lcloud.wiki
 DOMAIN-SUFFIX,notnetflix.cos.cat
