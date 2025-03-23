@@ -14,8 +14,9 @@ MAC版本的Emby破解
 /bin/bash -c "$(curl -fsSL https://gitlab.com/iptv-org/embypublic/-/raw/master/Script/EmbyPremiere.sh)"
 播放
 
-
-
 随便找一部影片来播放，美滋滋。
 
 如果 Emby 客户端更新了，可能需要使用上面命令重新破解一下。
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/psychopasss/ss_rule/main/macOS/EmbyUnlock.sh)"
+目前 Emby Client 版本 <= 2.2.27 版本都支持解锁
