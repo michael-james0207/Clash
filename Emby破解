@@ -12,9 +12,8 @@ MAC版本的Emby破解
 这时请使用下面的备用脚本
 
 /bin/bash -c "$(curl -fsSL https://gitlab.com/iptv-org/embypublic/-/raw/master/Script/EmbyPremiere.sh)"
-播放
 
-随便找一部影片来播放，美滋滋。
+播放随便找一部影片来播放，美滋滋。
 
 如果 Emby 客户端更新了，可能需要使用上面命令重新破解一下。
 
