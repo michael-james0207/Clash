@@ -4,6 +4,7 @@
 # 内容：Emby 🎬 影视专线
 # 比较全面的各家 Emby 地址，同时也新增了自己需要的几条线路，emby.wtf单独设置。
 payload:
+DOMAIN-SUFFIX,hongxingyunmovie.vip
 DOMAIN-SUFFIX,term.wtf
 DOMAIN-SUFFIX,emby.wtf
 DOMAIN,emby.enjoyit.eu.org
