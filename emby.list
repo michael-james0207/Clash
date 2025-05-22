@@ -1,8 +1,8 @@
 # 类别: Emby
 # 参考数据: https://github.com/justdoiting/emby-rules
-# 维护日期D: 2025-02-07
+# 维护日期D: 2025-05-22
 # 内容：Emby 🎬 影视专线
-# 比较全面的各家 Emby 地址，同时也新增了自己需要的几条线路，emby.wtf单独设置。
+# 比较全面的各家 Emby 地址，同时也新增了自己需要的几条线路，把pub1.emby.wtf域名下20年-25年用过的IP全部包含添加了一遍，不知道行不行。
 payload:
 IP-CIDR,152.67.199.207/24
 IP-CIDR,152.67.200.112/24
