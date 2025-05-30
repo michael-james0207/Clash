@@ -7,7 +7,7 @@
 proxy-providers:
  
   红杏机场:
-    url: "[https://hongxingdl.love/hxyunvip?token=04598b02663ca7dda3f38eb7a0a5c9ae]"
+    url: "[/]"
     type: http
     interval: 86400
     health-check:
@@ -17,7 +17,7 @@ proxy-providers:
     proxy: 直连    
 
   KTM机场:
-    url: "[https://ktmcloud.art/api/v1/client/subscribe?token=2ca8f00e8fafeb9ff1a2397cc93b4ed2]"
+    url: "[/]"
     type: http
     interval: 86400
     health-check:
