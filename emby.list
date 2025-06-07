@@ -4,7 +4,6 @@
 # 内容：Emby 🎬 影视专线
 # 比较全面的各家 Emby 地址，同时也新增了自己需要的几条线路，把pub1.emby.wtf域名下20年-25年用过的IP全部包含添加了一遍，不知道行不行。
 payload:
-DOMAIN-SUFFIX,cf1.jmsooo.com
 DOMAIN-KEYWORD,emby
 DOMAIN-SUFFIX,yhemby.top
 #pub1.emby.wtf域名下绑定IP，20年-25年。
