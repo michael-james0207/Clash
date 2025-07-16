@@ -5,7 +5,7 @@
 # 机场节点订阅
 proxy-providers:
   翻墙机场:
-    url: "机场订阅"
+    url: "\"
     type: http
     interval: 86400
     health-check:
@@ -15,7 +15,7 @@ proxy-providers:
     proxy: 直连 
     
   红杏机场:
-    url: "机场订阅"
+    url: "\"
     type: http
     interval: 86400
     health-check:
@@ -25,7 +25,7 @@ proxy-providers:
     proxy: 直连    
 
   KTM机场:
-    url: "机场订阅"
+    url: "\"
     type: http
     interval: 86400
     health-check:
@@ -161,10 +161,11 @@ proxy-groups:
   - name: Emby
     type: smart
     include-all: true
+    policy-priority: "-:1.2;中转:0.8"
     uselightgbm: true
     collectdata: true
     interval: 300
-    filter: "^((?!(直连|拒绝|印|越|南|Tokyo|HongKong|California|Singapore|Incheon)).)*$"
+    filter: "(?=.*(香港-0|香港直连|香港中转|台湾)).*$"
 
   - name: 所有-手选
     type: select
@@ -183,6 +184,7 @@ proxy-groups:
   - name: 香港-智选
     type: smart
     include-all: true
+    policy-priority: "HongKong:1.2"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -201,6 +203,7 @@ proxy-groups:
   - name: 日本-智选
     type: smart
     include-all: true
+    policy-priority: "Tokyo:1.2"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -210,6 +213,7 @@ proxy-groups:
   - name: 新加坡-智选
     type: smart
     include-all: true
+    policy-priority: "Singapore:1.2"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -219,6 +223,7 @@ proxy-groups:
   - name: 韩国-智选
     type: smart
     include-all: true
+    policy-priority: "Incheon:1.2"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -228,6 +233,7 @@ proxy-groups:
   - name: 美国-智选
     type: smart
     include-all: true
+    policy-priority: "California:1.2"
     uselightgbm: true
     collectdata: true
     interval: 300
