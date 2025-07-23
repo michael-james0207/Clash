@@ -161,11 +161,11 @@ proxy-groups:
   - name: Emby
     type: smart
     include-all: true
-    policy-priority: "-:1.2;中转:0.8"
+    policy-priority: "HongKong:1.2;Singapore:0.8"
     uselightgbm: true
     collectdata: true
     interval: 300
-    filter: "(?=.*(香港-0|香港直连|香港中转|台湾)).*$"
+    filter: "(?=.*(香港-0|香港中转|香港直连|新加坡-0|新加坡中转|新加坡直连)).*$"
 
   - name: 所有-手选
     type: select
@@ -184,11 +184,11 @@ proxy-groups:
   - name: 香港-智选
     type: smart
     include-all: true
-    policy-priority: "HongKong:1.2"
+    policy-priority: "香港-0:1.2"
     uselightgbm: true
     collectdata: true
     interval: 300
-    filter: "(?=.*(广港|香港|HK|Hong Kong|🇭🇰|HongKong)).*$"
+    filter: "(?=.*(香港 IPV6|香港-0|香港中转|香港直连|HongKong)).*$"
  
   # 台湾组
   - name: 台湾-智选
