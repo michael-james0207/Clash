@@ -7,7 +7,7 @@
 proxy-providers:
 
   KTM机场:
-    url: "订阅地址"
+    url: "https://ktm.zuuqb.cn/api/v1/client/subscribe?token=2ca8f00e8fafeb9ff1a2397cc93b4ed2"
     type: http
     interval: 86400
     health-check:
@@ -17,7 +17,7 @@ proxy-providers:
     proxy: 直连 
 
   红杏机场:
-    url: "订阅地址"
+    url: "https://43.139.213.75:9000/hxyunvip?token=4ef54a7d370d5d1b51f755acf1b9f760"
     type: http
     interval: 86400
     health-check:
@@ -307,13 +307,13 @@ proxy-groups:
   - name: 其他-手动
     type: select
     include-all: true
-    filter: "^((?!(直连|拒绝|广港|香港|HK|Hong Kong|🇭🇰|HongKong|广台|台湾|台灣|TW|Tai Wan|🇹🇼|🇨🇳|TaiWan|Taiwan|广日|日本|JP|川日|东京|大阪|泉日|埼玉|沪日|深日|🇯🇵|Japan|广新|新加坡|SG|坡|狮城|🇸🇬|Singapore|广韩|韩国|韓國|KR|首尔|春川|🇰🇷|Korea|广美|US|美国|纽约|波特兰|达拉斯|俄勒|凤凰城|费利蒙|洛杉|圣何塞|圣克拉|西雅|芝加|🇺🇸|United States|英国|UK|United Kingdom|伦敦|英|London|🇬🇧)).)*$"
+    filter: "^((?!(直连|拒绝|香|新|日|台|美|韩)).)*$"
   - name: 其他-自动
     type: url-test
     include-all: true
     tolerance: 50
     interval: 300
-    filter: "^((?!(直连|拒绝|广港|香港|HK|Hong Kong|🇭🇰|HongKong|广台|台湾|台灣|TW|Tai Wan|🇹🇼|🇨🇳|TaiWan|Taiwan|广日|日本|JP|川日|东京|大阪|泉日|埼玉|沪日|深日|🇯🇵|Japan|广新|新加坡|SG|坡|狮城|🇸🇬|Singapore|广韩|韩国|韓國|KR|首尔|春川|🇰🇷|Korea|广美|US|美国|纽约|波特兰|达拉斯|俄勒|凤凰城|费利蒙|洛杉|圣何塞|圣克拉|西雅|芝加|🇺🇸|United States|英国|UK|United Kingdom|伦敦|英|London|🇬🇧)).)*$"
+    filter: "^((?!(直连|拒绝|香|新|日|台|美|韩)).)*$"
 
 # ========================
 # 规则引擎（rules）
